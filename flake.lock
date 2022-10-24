@@ -1,28 +1,12 @@
 {
   "nodes": {
-    "coldsnap": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1664834804,
-        "narHash": "sha256-+JQjJ4F++S3eLnrqV1v4leepOvZBf8Vp575rnlDx2Cg=",
-        "owner": "awslabs",
-        "repo": "coldsnap",
-        "rev": "387ea4d47843ccf141d8f17c0b3c068acc96dc9e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "awslabs",
-        "repo": "coldsnap",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1665116594,
-        "narHash": "sha256-cm6doBu2eQ6yvlZ/fw0AJGGY7OqpBcqIPdtaVJE5CKE=",
+        "lastModified": 1666615827,
+        "narHash": "sha256-oAf8l7eMEFjXMVsrQgHnRUeQbSrY/Amjm8xnUioNbJ8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "867d3dd394624590ad84cead79a5a7a0a20b39c5",
+        "rev": "f93f9f43c6b3347b2091a8a41421d31e84cb9275",
         "type": "github"
       },
       "original": {
@@ -34,7 +18,6 @@
     },
     "root": {
       "inputs": {
-        "coldsnap": "coldsnap",
         "nixpkgs": "nixpkgs"
       }
     }
